@@ -1,0 +1,12 @@
+body{margin:0;background:#1e1e2f;color:white;font-family:sans-serif;overflow:hidden;}
+#desktop{width:100%;height:100vh;}
+.icon{position:absolute;width:80px;text-align:center;cursor:pointer;}
+.icon img{width:64px;height:64px;}
+.window{position:absolute;width:500px;height:350px;background:#222;border:1px solid #555;display:flex;flex-direction:column;}
+.titlebar{background:#444;padding:5px;display:flex;justify-content:space-between;cursor:move;}
+iframe{flex:1;border:none;}
+#taskbar{position:fixed;bottom:0;width:100%;height:40px;background:#111;display:flex;align-items:center;}
+#taskbar-apps{display:flex;}
+.taskbar-item{padding:5px;background:#222;margin-left:5px;}
+#start-menu{position:fixed;bottom:40px;left:0;background:#222;display:none;flex-direction:column;}
+.start-item{padding:8px;cursor:pointer;}

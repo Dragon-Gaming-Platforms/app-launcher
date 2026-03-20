@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "header": "System",
+      "apps": [
+        {
+          "title": "File Explorer",
+          "icon": "icons/folder.png",
+          "src": "apps/file-explorer.html",
+          "preinstalled": true
+        },
+        {
+          "title": "HTML Editor",
+          "icon": "icons/editor.png",
+          "src": "apps/editor.html",
+          "preinstalled": false
+        }
+      ]
+    }
+  ]
+}
